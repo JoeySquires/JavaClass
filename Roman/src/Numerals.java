@@ -1,4 +1,6 @@
-
+//Roman numeral calculator
+//@author js54004
+//joey.squires@kroger.com
 public class Numerals {
 	private String romanNumeral = "";
 
