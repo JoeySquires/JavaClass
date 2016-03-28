@@ -13,6 +13,14 @@ public class Numerals {
 			romanNumeral += "CM";
 			userNumber -= 900;
 		}
+		while(userNumber >= 500){
+			romanNumeral += "L";
+			userNumber -= 500;
+		}
+		while(userNumber >= 400){
+			romanNumeral += "CL";
+			userNumber -= 400;
+		}
 		
 		while(userNumber >= 100){
 			romanNumeral += "C";
